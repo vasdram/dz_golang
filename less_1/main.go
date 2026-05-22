@@ -9,3 +9,12 @@ func main() {
 
 	fmt.Println(EUR_TO_RUB)
 }
+
+func outputCurrency() {
+	var currency int
+	fmt.Println("input sum of currency")
+	fmt.Scanf("%d", &currency)
+}
+
+func calcaleteCurrency(rate float64, from, to string, ) float64 {
+}
